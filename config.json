@@ -1,7 +1,7 @@
 {
     "api": {
         "id": null,
-        "worker-id": null
+        "worker-id": CedK
     },
     "http": {
         "enabled": false,
@@ -28,10 +28,10 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
-        "memory-pool": false,
+        "memory-pool": true,
         "yield": true,
         "max-threads-hint": 100,
         "asm": true,
@@ -62,12 +62,12 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
+            "algo": RandomX,
+            "coin": Monero,
             "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "user":  "4BBtMwoR2ceTkzJw6beKtSRpJb9MS6v6gjfAGeCRpe1aHprxt6ieuk3P9ht1XsvN9g56eTT61tGsUH6jWqyY5D1P2J7xvH4"
             "pass": "x",
-            "rig-id": null,
+            "rig-id": xmrig-CedK1528
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
